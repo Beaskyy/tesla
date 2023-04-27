@@ -13,6 +13,7 @@ const Home = () => {
     <div className="home">
       <Section
         title="Model S"
+        id="model-s"
         description="Order Online for Touchless Delivery"
         backgroundImg={modelS}
         leftBtnText="Custom order"
@@ -20,6 +21,7 @@ const Home = () => {
       />
       <Section
         title="Model Y"
+        id="model-y"
         description="Order Online for Touchless Delivery"
         backgroundImg={modelY}
         leftBtnText="Custom order"
@@ -27,6 +29,7 @@ const Home = () => {
       />
       <Section
         title="Model 3"
+        id="model-3"
         description="Order Online for Touchless Delivery"
         backgroundImg={model3}
         leftBtnText="Custom order"
@@ -34,6 +37,7 @@ const Home = () => {
       />
       <Section
         title="Model X"
+        id="model-x"
         description="Order Online for Touchless Delivery"
         backgroundImg={modelX}
         leftBtnText="Custom order"

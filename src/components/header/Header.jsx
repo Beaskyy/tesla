@@ -12,14 +12,14 @@ const Header = () => {
   console.log(cars);
   return (
     <div className="header">
-      <a href="/">
+      <a href="/#">
         <img src={logo} alt="logo" />
       </a>
       <div className="menu">
         {cars &&
           cars.map((car, index) => (
-            <a href="/" key={index}>
-              {car}
+            <a href={`#${car.id}`} key={index}>
+              {car.model}
             </a>
           ))}
       </div>
@@ -36,7 +36,7 @@ const Header = () => {
         {cars &&
           cars.map((car, index) => (
             <li>
-          <a href="/" key={index}>{car}</a>
+          <a href={`#${car.id}`} key={index}>{car.model}</a>
         </li>
           ))}
         <li>

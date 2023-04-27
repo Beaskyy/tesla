@@ -4,6 +4,7 @@ import Fade from "react-reveal/Fade";
 
 const Section = ({
   title,
+  id,
   description,
   backgroundImg,
   leftBtnText,
@@ -13,6 +14,7 @@ const Section = ({
     <div
       className="section"
       style={{ backgroundImage: `url(${backgroundImg})` }}
+      id={`${id}`}
     >
       <Fade bottom>
         <div className="item-text">
